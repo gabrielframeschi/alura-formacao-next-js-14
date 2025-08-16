@@ -9,9 +9,10 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "next": "14.2.30",
     "react": "^18",
     "react-dom": "^18",
-    "next": "14.2.30"
+    "winston": "^3.17.0"
   },
   "packageManager": "yarn@1.22.19+sha1.4ba7fc5c6e704fce2066ecbfb0b0d8976fe62447"
 }
