@@ -1,36 +1,39 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Code Connect
 
-## Getting Started
+## 📖 Descrição
 
-First, run the development server:
+O **Code Connect** é uma aplicação simples desenvolvida com Next.js 14 que simula uma plataforma de blog com conteúdo para desenvolvedores. O projeto foi criado como parte do curso de formação em Next.js da Alura.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+![Screenshot da aplicação Code Connect](../../docs/curso-01-screenshot-1.png)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🛠️ Tecnologias
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+- Next.js 14
+- React 18
+- CSS Modules
+- Remark (markdown)
+- DOMPurify
+- Winston (logging)
+- JSON Server
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🚀 Como Executar
 
-## Learn More
+1. **Instale as dependências**
 
-To learn more about Next.js, take a look at the following resources:
+   ```bash
+   yarn install
+   ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+2. **Inicie o servidor de dados**
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+   ```bash
+   yarn server
+   ```
 
-## Deploy on Vercel
+3. **Inicie o servidor de desenvolvimento**
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+   ```bash
+   yarn dev
+   ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+4. **Acesse** [http://localhost:3000](http://localhost:3000)

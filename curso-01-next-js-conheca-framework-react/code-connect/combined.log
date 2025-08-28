@@ -1,0 +1,10 @@
+{
+  message: 'Posts obtidos com sucesso',
+  level: 'info',
+  timestamp: '2025-08-28T01:38:08.020Z'
+}
+{
+  message: 'Post obtido com sucesso',
+  level: 'info',
+  timestamp: '2025-08-28T01:38:47.309Z'
+}
